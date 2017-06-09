@@ -21,21 +21,21 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Welcome!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AAj-22-WHS">
-                                <rect key="frame" x="149" y="35" width="76" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AAj-22-WHS">
+                                <rect key="frame" x="149" y="40" width="76" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MOP-0G-FKE">
-                                <rect key="frame" x="170" y="75" width="35" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MOP-0G-FKE">
+                                <rect key="frame" x="170" y="71" width="35" height="30"/>
                                 <state key="normal" title="Hello"/>
                                 <connections>
                                     <action selector="helloSelected:" destination="BYZ-38-t0r" eventType="touchUpInside" id="YuM-5m-8ku"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mQP-CD-iX4">
-                                <rect key="frame" x="169" y="120" width="36" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mQP-CD-iX4">
+                                <rect key="frame" x="169" y="111" width="36" height="30"/>
                                 <state key="normal" title="Clear"/>
                                 <connections>
                                     <action selector="clearSelected:" destination="BYZ-38-t0r" eventType="touchUpInside" id="iu5-Fs-8qG"/>
@@ -44,12 +44,12 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="AAj-22-WHS" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="15" id="1ss-Jl-4Dt"/>
-                            <constraint firstItem="mQP-CD-iX4" firstAttribute="centerX" secondItem="MOP-0G-FKE" secondAttribute="centerX" id="Bjv-r7-ywp"/>
-                            <constraint firstItem="MOP-0G-FKE" firstAttribute="top" secondItem="AAj-22-WHS" secondAttribute="bottom" constant="10" id="P0k-ma-1eu"/>
-                            <constraint firstItem="MOP-0G-FKE" firstAttribute="centerX" secondItem="AAj-22-WHS" secondAttribute="centerX" constant="10" id="QIM-HC-eZY"/>
-                            <constraint firstItem="mQP-CD-iX4" firstAttribute="top" secondItem="MOP-0G-FKE" secondAttribute="bottom" constant="10" id="enW-AB-DWV"/>
-                            <constraint firstItem="AAj-22-WHS" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="20" id="xiC-sb-AXe"/>
+                            <constraint firstItem="MOP-0G-FKE" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="DGq-ho-891"/>
+                            <constraint firstItem="MOP-0G-FKE" firstAttribute="top" secondItem="AAj-22-WHS" secondAttribute="bottom" constant="10" id="KS8-Nc-kGr"/>
+                            <constraint firstItem="AAj-22-WHS" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="20" id="ekQ-7E-pL6"/>
+                            <constraint firstItem="mQP-CD-iX4" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="n01-aD-Eq3"/>
+                            <constraint firstItem="mQP-CD-iX4" firstAttribute="top" secondItem="MOP-0G-FKE" secondAttribute="bottom" constant="10" id="pcz-k8-LK6"/>
+                            <constraint firstItem="AAj-22-WHS" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="sXc-bJ-quX"/>
                         </constraints>
                     </view>
                     <connections>

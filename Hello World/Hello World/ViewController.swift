@@ -26,7 +26,7 @@ class ViewController: UIViewController {
     }
 
     @IBAction func clearSelected(_ sender: UIButton) {
-        infoLabel.text = ""
+        infoLabel.text = " "
     }
 }
 
